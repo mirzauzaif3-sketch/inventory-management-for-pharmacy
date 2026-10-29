@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production build outputs
+dist/
+client/dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+server/.env
+
+# Temporary / SQLite runtime files
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vercel deployment folder
+.vercel
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
